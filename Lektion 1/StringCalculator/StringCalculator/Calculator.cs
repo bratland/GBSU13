@@ -42,7 +42,7 @@ namespace StringCalculator
         private string CleanInput(string inputString)
         {
             if (inputString.StartsWith("//"))
-                inputString = inputString.Split(new char[] { '\n' }, 2)[1];
+                inputString = inputString.Split(new [] { '\n' }, 2)[1];
 
             inputString = inputString.Replace(" ", "");
 
