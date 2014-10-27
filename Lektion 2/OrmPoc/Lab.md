@@ -28,7 +28,11 @@ En faktura skall innehålla datat som det var när ordern lades. Dvs om en kund 
 
 Del 2.
 ======
-Lägg till en kolumn i ordertabellen. Detta skall göras med tabellen är fylld med data. Dvs en ALTER TABLE. Utför på olika mängder data.
+Lägg till en kolumn i ordertabellen. Detta skall göras med tabellen är fylld med data. Dvs en ALTER TABLE. Utför på olika mängder data. 
+
+Ändra på en eller flera kolumer i kundtabellen. Testa t ex att byta ut FirstName och LastName mot FullName.
+
+Skapa en funktion för att höja priset på alla produkter med x procent.
 
 Vid inserts av kunder och ordrar, testa med och utan forreign key constraint påslaget. Utför genom att ta bort FK, göra insert, och sedan lägga på den igen. Jämför skillnaden.
 
