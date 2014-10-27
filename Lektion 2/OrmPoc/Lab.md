@@ -36,6 +36,8 @@ Skapa en funktion för att höja priset på alla produkter med x procent.
 
 Vid inserts av kunder och ordrar, testa med och utan forreign key constraint påslaget. Utför genom att ta bort FK, göra insert, och sedan lägga på den igen. Jämför skillnaden.
 
+Medans faktureringsjobbet körs, så skall en annan process eller applikation lägga nya ordrar. Resultat? Påverkas tiderna?
+
 Kör alla prestandatesterna både med Unicode på alla kollumnerna och utan. Jämför.
 
 
