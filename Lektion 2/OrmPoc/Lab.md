@@ -53,4 +53,6 @@ Laborera med batchsizes. Är samma storlek på batchsize rätt både för 10 000
 
 10 000 000 stjäl för mycket tid. Behåll funktionaliteten, men använd hellre 1 000 000 när ni labbar.
 
+Utöka applikationen till att kunna utföra samtliga uppgifter även via Stored Procedures och vyer. Vyer för läsningar och SPs för skrivningar.
+
 
