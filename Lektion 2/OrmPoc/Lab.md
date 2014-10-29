@@ -51,6 +51,6 @@ Era applikationer skall:
 * 
 Laborera med batchsizes. Är samma storlek på batchsize rätt både för 10 000 och 10 000 000 kunder?
 
-
+10 000 000 stjäl för mycket tid. Behåll funktionaliteten, men använd hellre 1 000 000 när ni labbar.
 
 
