@@ -26,11 +26,11 @@ I denna labben får ni gärna börja fundera på ett standardiserat gränssnitt 
 
 En faktura skall innehålla datat som det var när ordern lades. Dvs om en kund ändrar adress, så skall adressen inte ändras i fakturan. Om en produkt ändrar pris, så skall priset inte ändras i fakturan.
 
-Del 2.
-======
+2014-10-27
+==========
 Lägg till en kolumn i ordertabellen. Detta skall göras med tabellen är fylld med data. Dvs en ALTER TABLE. Utför på olika mängder data. 
 
-Ändra på en eller flera kolumer i kundtabellen. Testa t ex att byta ut FirstName och LastName mot FullName.
+Ändra på en eller flera kolumer i kundtabellen. Testa t ex att byta ut FirstName och LastName mot FullName. Detta skall kunna köras närs som helst. Dvs data att förändra skall kunna genereras inför varje körning.
 
 Skapa en funktion för att höja priset på alla produkter med x procent.
 
@@ -39,6 +39,16 @@ Vid inserts av kunder och ordrar, testa med och utan forreign key constraint på
 Medans faktureringsjobbet körs, så skall en annan process eller applikation lägga nya ordrar. Resultat? Påverkas tiderna?
 
 Kör alla prestandatesterna både med Unicode på alla kollumnerna och utan. Jämför.
+
+2014-10-29
+==========
+Era applikationer skall:
+* Ta bort tabellerna. 
+* ha en metod liknande AddOrder(Order order) där order innehåller x antal orderrader.
+* ha en metod AddCustomer(Customer customer)
+* BÅDE kunna skapa data mha bulkcopy och "vanliga" sql inserts.
+* rapportera tidsåtgången för alla operationer. Att tömma tabeller, droppa tebeller, reflections osv skall inte ingå i mätningarna.
+
 
 
 
