@@ -48,6 +48,8 @@ Era applikationer skall:
 * ha en metod AddCustomer(Customer customer)
 * BÅDE kunna skapa data mha bulkcopy och "vanliga" sql inserts.
 * rapportera tidsåtgången för alla operationer. Att tömma tabeller, droppa tebeller, reflections osv skall inte ingå i mätningarna.
+* 
+Laborera med batchsizes. Är samma storlek på batchsize rätt både för 10 000 och 10 000 000 kunder?
 
 
 
