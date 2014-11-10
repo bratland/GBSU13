@@ -58,7 +58,7 @@ Utöka applikationen till att kunna utföra samtliga uppgifter även via Stored 
 2014-11-10
 ==========
 
-Labben skall rapporteras i Fronter skriftligen senast 23:59 tisdag 12:e november.
+Labben skall rapporteras i Fronter skriftligen senast 23:59 tisdag 11:e november.
 I rapporten skall framgå:
 * Tidsågång för alla de olika operationerna som labben omfattar. Både beräknat per rad och för hela batchen.
 * Utförliga slutsatser om vilken teknik som bör användas i vilket scenarie.
