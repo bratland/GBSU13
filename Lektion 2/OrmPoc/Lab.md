@@ -66,7 +66,7 @@ I rapporten skall framgå:
 
 Koden behöver inte läggas in i fronter. Ni skall kunna presentera er lösning för klassen på onsdag.
 
-2014-11-10
+2014-11-12
 ==========
 Fokus idag: EF + Transaktioner
 Bygg metodern ni byggt tidigare, AddOrder, AddCustomer, UpdateAllPrices(alltså funktionen tidigare för att ändra priser med en viss procent), CreateInvoice med EF.
