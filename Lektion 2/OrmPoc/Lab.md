@@ -66,4 +66,14 @@ I rapporten skall framgå:
 
 Koden behöver inte läggas in i fronter. Ni skall kunna presentera er lösning för klassen på onsdag.
 
+2014-11-10
+==========
+Fokus idag: EF + Transaktioner
+Bygg metodern ni byggt tidigare, AddOrder, AddCustomer, UpdateAllPrices(alltså funktionen tidigare för att ändra priser med en viss procent), CreateInvoice med EF.
+Bygg en metod med valfri teknik som tar lång tid att exekvera och spänner över många rader i databasen. Den skall ta tillräckligt med tid för att ni i lugn och ro skall kunna köra metoderna ovan.
+
+Utvärdera med och utan transaktioner. Testa att lägga transaktioner kring AddCustomer + AddOrder, Runt en stor insert (ej bulk)
+
+Den som först lyckas skapa en deadlock får en kaffe från personalrummet.
+
 
