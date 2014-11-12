@@ -74,6 +74,8 @@ Bygg en metod med valfri teknik som tar lång tid att exekvera och spänner öve
 
 Utvärdera med och utan transaktioner. Testa att lägga transaktioner kring AddCustomer + AddOrder, Runt en stor insert (ej bulk)
 
+Gör en SQL Trace på UpdateAllPrices och utvärdera.
+
 Den som först lyckas skapa en deadlock får en kaffe från personalrummet.
 
 
