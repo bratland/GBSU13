@@ -78,4 +78,11 @@ Gör en SQL Trace på UpdateAllPrices och utvärdera.
 
 Den som först lyckas skapa en deadlock får en kaffe från personalrummet.
 
+Inför tentan
+==============================
+Publicera metoderna ovan via WCF.
+Bygg en klient som hämtar en kund, ändrar på kunden och försöker spara den igen via wcf. Bygg backend med Entity Framework för detta. Det vi vill åt är att ett objekt tappar kontakten med sitt DbContext, och sedan kopplas in igen.
+
+Ej obligatoriskt, men bonus är att bygga EF-funktionaliteten med nHibernate ist.
+
 
