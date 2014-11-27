@@ -85,4 +85,6 @@ Bygg en klient som hämtar en kund, ändrar på kunden och försöker spara den 
 
 Ej obligatoriskt, men bonus är att bygga EF-funktionaliteten med nHibernate ist.
 
+Ni kommer ha 15 minuter på er att redovisa. Ni skall beskriva er arkitektur inte bara med text, utan även med bilder av lämplig typ.
 
+Ge lämpliga scenarier för de olika dataaccessteknikerna. Beskriv deras svagheter och styrkor.
