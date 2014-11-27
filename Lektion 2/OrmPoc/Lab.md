@@ -85,6 +85,16 @@ Bygg en klient som hämtar en kund, ändrar på kunden och försöker spara den 
 
 Ej obligatoriskt, men bonus är att bygga EF-funktionaliteten med nHibernate ist.
 
-Ni kommer ha 15 minuter på er att redovisa. Ni skall beskriva er arkitektur inte bara med text, utan även med bilder av lämplig typ.
+Ni kommer ha 15 minuter på er att redovisa. Bygg vidare på rapporten från förra inlämningen.
+
+Ni skall beskriva er arkitektur inte bara med text, utan även med bilder av lämplig typ. Gör egen bedömning av lämplig typ.
 
 Ge lämpliga scenarier för de olika dataaccessteknikerna. Beskriv deras svagheter och styrkor.
+
+Hur bra är den SQL som genereras av EF? Hur bra är den SQL som genereras av nHibernate?
+
+Vilka slutsatser har ni fragit kring användandet av transaktioner? Ge rekomendationer för transaktioner.
+
+Vad kan ni ytterligare tipsa nybörjare inom dataaccess om?
+
+
