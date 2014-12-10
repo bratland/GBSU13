@@ -1,0 +1,13 @@
+Skapa html-fil
+Lägg till ref till Angular
+Lägg till app
+Visa databindning m textbox och label
+Visa folderstruktur.
+Byt över till index.cshtml
+Visa ng-repeat på tårtkoden.
+Bryt ut till direktiv.
+Visa tester av scope. Förklara testrunnern.
+Lägg på ng-animate och class="repeated-item"
+
+
+
