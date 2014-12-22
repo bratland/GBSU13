@@ -6,31 +6,27 @@ Skapa databas med:
 * Produkter
 * Fakturor
 
-Ni skall kunna generera testdata för 10, 10 000 och 10 000 000 kunder med 10 ordrar per kund och 5 produkter per order.
+Ni skall kunna generera testdata fÃ¶r 10, 10 000 och 10 000 000 kunder med 10 ordrar per kund och 5 produkter per order.
 
-<<<<<<< HEAD
-När ni genererar namn till kunderna får de inte vara i sekvens.
+
 =======
 MÃ¤t tiderna fÃ¶r de olika typerna av inserts som ni gÃ¶r.
 
 NÃ¤r ni genererar namn till kunderna fÃ¥r de inte vara i sekvens.
->>>>>>> origin/master
 
-Ert system skall kunna genomföra köp
-Ert system skall kunna fakturera köpa gjorde de senaste x dagarna för köp som ej är fakturerade.
+Ert system skall kunna genomfÃ¶ra kÃ¶p
+Ert system skall kunna fakturera kÃ¶pa gjorde de senaste x dagarna fÃ¶r kÃ¶p som ej Ã¤r fakturerade.
 Ert system skall kunna visa upp fakturor
 
-Använda bara ado.net för att lösa uppgiften.
+AnvÃ¤nda bara ado.net fÃ¶r att lÃ¶sa uppgiften.
 
-<<<<<<< HEAD
-För insert av 10 000 000 rader googla gärna på batch insert.
-=======
+
 FÃ¶r insert av 10 000 000 rader googla gÃ¤rna pÃ¥ batch insert. Analysera lÃ¤mplig storlek pÃ¥ batcharna.
->>>>>>> origin/master
 
-Bygg gärna hanteringen av testdatat som en separat applikation. Den kommer behövas under resten av kursen.
 
-I denna labben får ni gärna börja fundera på ett standardiserat gränssnitt mot databasen, då motsvarande data kommer hämtas med flera olika tekniker och vi vill minimera omskrivningarna för detta.
+Bygg gÃ¤rna hanteringen av testdatat som en separat applikation. Den kommer behÃ¶vas under resten av kursen.
+
+I denna labben fÃ¥r ni gÃ¤rna bÃ¶rja fundera pÃ¥ ett standardiserat grÃ¤nssnitt mot databasen, dÃ¥ motsvarande data kommer hÃ¤mtas med flera olika tekniker och vi vill minimera omskrivningarna fÃ¶r detta.
 
 En faktura skall innehÃ¥lla datat som det var nÃ¤r ordern lades. Dvs om en kund Ã¤ndrar adress, sÃ¥ skall adressen inte Ã¤ndras i fakturan. Om en produkt Ã¤ndrar pris, sÃ¥ skall priset inte Ã¤ndras i fakturan.
 
